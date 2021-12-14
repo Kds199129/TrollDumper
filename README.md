@@ -1,5 +1,5 @@
 # TrollDumper By BLU3
-TrollDumper a custom is a packet analyzer made in python that is launched from the command line. It can be used to analyze network traffic
+TrollDumper a custom is a packet analyzer made in python that is launched from the command line. It can be used to analyze network traffic.
 
 # How to use:
 
