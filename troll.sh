@@ -38,7 +38,7 @@ echo "[38;2;228;13;13m [38;2;228;20;13m [38;2;227;27;13m [38;2;227;34;13m [
 interface=eth0
 dumpdir=/root/TCPDumps
 capturefile=/root/TCPDumps
- url='https://discord.com/api/webhooks/' ## Change this to your Discord Webhook URL
+ url='https://discord.com/api/webhooks/994991435818475540/Hx--StXUoEXppS7JA79D5oAubZPAJhBhYXflcUAW9L_AgqsLgzVPXYgCOBGcfvHUE4jq' ## Change this to your Discord Webhook URL
 while /bin/true; do
   pkt_old=`grep $interface: /proc/net/dev | cut -d :  -f2 | awk '{ print $2 }'` 
   sleep 1
